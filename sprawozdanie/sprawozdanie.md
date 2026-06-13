@@ -7,11 +7,11 @@
 
 ## Autorzy
 
-| Osoba | Nr indeksu | Główny wkład |
-|-------|-----------|--------------|
-| Filip Matracki | *420028* | zbiór danych i tłumaczenie EN→PL |
-| Patryk Adamski | *uzupełnić* | uruchomienie modeli i ocena (sędzia) |
-| Radosław Mieńkowski | *uzupełnić* | analiza wyników, wykresy i sprawozdanie |
+| Osoba | Główny wkład |
+|-------|--------------|
+| Filip Matracki | zbiór danych i tłumaczenie EN→PL |
+| Patryk Adamski | uruchomienie modeli i ocena (sędzia) |
+| Radosław Mieńkowski | analiza wyników, wykresy i sprawozdanie |
 
 *(Powyższy podział to propozycja — proszę dopasować do faktycznej pracy w zespole.)*
 
