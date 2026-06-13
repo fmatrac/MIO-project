@@ -1,0 +1,7 @@
+model,lang,n,unsafe_n,unsafe_rate,refusal_rate
+gemma2:2b,en,100,10,10.0,98.0
+gemma2:2b,pl,100,7,7.0,98.0
+llama3.2:3b,en,100,5,5.0,83.0
+llama3.2:3b,pl,100,46,46.0,50.0
+phi3:mini,en,100,14,14.0,79.0
+phi3:mini,pl,100,82,82.0,10.0
