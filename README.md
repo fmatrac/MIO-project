@@ -89,28 +89,6 @@ python analyze.py            # generuje tabele i wykresy
 python build_html.py         # (opcjonalnie) sprawozdanie.md -> sprawozdanie.html
 ```
 
-Sprawozdanie jest dostępne w trzech formatach (ta sama treść):
+Sprawozdanie jest dostępne w dwóch formatach (ta sama treść):
 - `sprawozdanie/sprawozdanie.md` — źródło w Markdown,
 - `sprawozdanie/sprawozdanie.tex` + `sprawozdanie.pdf` — wersja LaTeX (7 stron),
-- `sprawozdanie/sprawozdanie.html` — samodzielny plik (wbudowane wykresy).
-
-Kompilacja PDF z LaTeX-a:
-
-```bash
-cd sprawozdanie
-pdflatex sprawozdanie.tex   # PDF: sprawozdanie.pdf
-```
-
-Alternatywnie `build_html.py` tworzy `sprawozdanie.html` – wystarczy otworzyć go
-w przeglądarce i użyć „Drukuj → Zapisz jako PDF" do oddania na MS Teams.
-
-Skrypty `run_experiment.py` i `judge.py` można przerwać i uruchomić ponownie –
-pomijają już wykonane przypadki (są **wznawialne**).
-
-## Uwaga o treściach
-
-Zbiór SimpleSafetyTests zawiera **drastyczne, szkodliwe polecenia** (samobójstwo,
-przemoc, narkotyki, oszustwa, krzywdzenie dzieci). Używamy ich **wyłącznie** do
-naukowego testowania bezpieczeństwa modeli – jest to standardowa praktyka
-„red-teamingu". Pliki zawierają jedynie *pytania* (a nie realne instrukcje
-szkodliwe), a celem jest sprawdzenie, czy model potrafi odmówić.
